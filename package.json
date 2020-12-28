@@ -1,0 +1,25 @@
+{
+  "name": "motifs-js-website",
+  "version": "1.0.0",
+  "description": "The `motifs-js`'s documentation website sources",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js --experimental-modules",
+    "test": "npm start -- -log test",
+    "website": "npm start -- -k website -force -log build en",
+    "serve": "npm start -- -k website -force -log serve en"
+  },
+  "keywords": [
+    "motifs-js",
+    "pattern",
+    "generative",
+    "website",
+    "documentation"
+  ],
+  "author": "romaric.ruga@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "showdown": "^1.9.1"
+  }
+}
