@@ -1,0 +1,6 @@
+[submodule "motifs-js-website"]
+	path = motifs-js-website
+	url = git@github.com:Skaant/motifs-js-website.git
+[submodule "motifs-js"]
+	path = motifs-js
+	url = git@github.com:Skaant/motifs-js.git
