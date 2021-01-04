@@ -1,5 +1,5 @@
-import WEBSITE_PAGE from '../../../../motifs-js/_motifs/website-page/website-page.motif.js'
-import FOLDER from '../../../../motifs-js/_motifs/folder/folder.motif.js'
+import WEBSITE_PAGE from 'motifs-js/_motifs/website-page/website-page.motif.js'
+import FOLDER from 'motifs-js/_motifs/folder/folder.motif.js'
 import homeTemplate from "../../../_templates/home/home.template.js"
 import motifTemplate from '../../../_templates/motif/motif.template.js'
 

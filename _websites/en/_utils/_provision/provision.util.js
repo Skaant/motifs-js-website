@@ -1,6 +1,6 @@
-import formatEnum from "../../../../motifs-js/_motifs/get/_enums/format/format.enum.js";
-import INSTANCE from "../../../../motifs-js/_motifs/instance/instance.motif.js";
-import MOTIF from "../../../../motifs-js/_motifs/motif/motif.motif.js";
+import formatEnum from "motifs-js/_motifs/get/_enums/format/format.enum.js";
+import INSTANCE from "motifs-js/_motifs/instance/instance.motif.js";
+import MOTIF from "motifs-js/_motifs/motif/motif.motif.js";
 
 export default () =>
 

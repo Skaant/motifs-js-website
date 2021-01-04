@@ -21,6 +21,8 @@
   "author": "romaric.ruga@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "motifs-js": "^0.3.0",
     "showdown": "^1.9.1"
   }
 }
