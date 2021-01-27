@@ -5,6 +5,7 @@ import mappingUtil from "./_utils/_mapping/mapping.util.js"
 export default {
   id: 'en',
   title: 'MOTIFS, a generative design patterns framework',
+  url: 'https://motifs-js-website.vercel.app',
   lang: langEnum.EN,
   provision: provisionUtil,
   mapping: mappingUtil
