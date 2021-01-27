@@ -16,9 +16,19 @@ export default (
     <link href="/assets/style.css" rel="stylesheet" type="text/css">
   </head>
   <body class='bg-fresh'>
-    <nav class="navbar position-absolute d-flex justify-content-between align-items-center">
-      <a class="navbar-brand mt-2 mr-3 text-white font-epic bg-fresh px-2" href="/">
-        MOTIFS</a>
+    <nav class="navbar position-absolute d-flex justify-content-between align-items-center w-100 pt-4">
+      <a class="navbar-brand mr-3 text-white font-epic bg-fresh px-2" href="/">
+        motifs-js</a>
+      
+      <div>
+        <ul class="navbar-nav mr-auto w-100 justify-content-end text-right">
+          <li class="nav-item active">
+            <a href="/releases"
+                class="nav-link text-white bg-fresh px-2">
+              Releases</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     ${ content }
   </body>
