@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js --",
+    "start": "node index.js --experimental-modules",
     "test": "npm start -- -log test",
     "readme": "npm start -- -m readme -log build",
     "website": "npm start -- -m website -log build en",
